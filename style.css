@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #013212;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* ======>   Logo    <======== */
+.logo p {
+    margin: 8px 0 0 4px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.logo i {
+    color: rgb(255, 0, 0);
+}
+
+/* ======>  Main box     <======== */
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 390px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: 0 0  10px gold;
+}
+
+.box p,
+.box h1 {
+    margin: 0;
+}
+
+.box h1 {
+    font-size: 3.2rem;
+    text-shadow: 0 0 5px #363636;
+    box-shadow: 0 0 10px #000;
+    padding: 10px;
+}
+
+.box p {
+    font-size: 1.8rem;
+}
+
+/* ====>  Input Field Style  <===== */
+input[type=text] {
+    width: 120px;
+    height: 35px;
+    border: none;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 17px;
+    color: #353535;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+/* ====>  button style  <===== */
+
+
+button {
+    border: none;
+    background-color: #00701a;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a15;
+    color: #e3e3e3;
+    text-shadow: 0 0 5px black;
+}
+
+
+div .styles {
+    color: darkslategray;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:578px) {
+    .box {
+        width: 250px;
+        height: 300px;
+        gap: 20px;
+    }
+
+    .box p {
+        text-align: center;
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+
+}
